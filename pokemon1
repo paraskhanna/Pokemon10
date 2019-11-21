@@ -1,0 +1,75 @@
+<?php
+
+class Rectangle
+
+{
+
+    // declare properties
+
+    public $length = 0;
+
+    public $width = 0;
+
+    
+
+    
+
+    //Method to get the perimeter
+
+    public function getPerimeter(){
+
+        return{2*($$this->length+$this->width)};
+
+        
+
+    }
+
+    
+
+    
+
+    //Method to get the area
+
+    public function getArea(){
+
+        return($this->length*$this->width);
+
+    }
+
+}
+
+
+
+
+
+    $obj = new  Rectangle;
+
+    
+
+    //Get the object properties values
+
+    echo $obj->length;//Output:0
+
+    echo $obj->width;//Output:0
+
+    
+
+    //Set object properties values
+
+    $obj->length = 30;
+
+    $obj-.width = 20;
+
+    
+
+    
+
+    
+
+    // Call the object methods
+
+    echo $obj->getPerimeter();Output:100
+
+    echo $obj->getArea()://Output:600
+
+    ?>
